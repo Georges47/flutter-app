@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,29 +15,10 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.amber[700],
       ),
-      body: Center(
-//      child: RaisedButton(
-//        onPressed:() {},
-//        child: Text('Raised Button'),
-//      ),
-
-//      child: FlatButton(
-//        onPressed: () {print('object');},
-//        child: Text('Flat Button'),
-//        color: Colors.amber,
-//      ),
-
-        child: RaisedButton.icon(
-            onPressed: () {},
-            icon: Icon(
-              Icons.ac_unit
-            ),
-            label: Text('example')),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Text('+'),
-        backgroundColor: Colors.amber[700],
+      body: Container(
+        padding: EdgeInsets.symmetric(horizontal: 90.0, vertical: 200.0),
+        color: Colors.grey,
+        child: Text('dimi'),
       ),
     );
   }
