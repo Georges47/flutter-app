@@ -17,10 +17,23 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[700],
       ),
       body: Center(
-        child: Image(
-          //image: NetworkImage('https://images.unsplash.com/photo-1588098928842-715f1673f6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'),
-          image: AssetImage('assets/danjackson.png'),
-        ),
+//      child: RaisedButton(
+//        onPressed:() {},
+//        child: Text('Raised Button'),
+//      ),
+
+//      child: FlatButton(
+//        onPressed: () {print('object');},
+//        child: Text('Flat Button'),
+//        color: Colors.amber,
+//      ),
+
+        child: RaisedButton.icon(
+            onPressed: () {},
+            icon: Icon(
+              Icons.ac_unit
+            ),
+            label: Text('example')),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
