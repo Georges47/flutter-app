@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,11 +16,24 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.amber[700],
       ),
-      body: Container(
-        padding: EdgeInsets.symmetric(horizontal: 90.0, vertical: 200.0),
-        color: Colors.grey,
-        child: Text('dimi'),
-      ),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Text('dimi'),
+          FlatButton(
+            onPressed: () {},
+            child: Text('button'),
+            color: Colors.orange,
+          ),
+          Container(
+            color: Colors.greenAccent,
+            padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+            margin: EdgeInsets.symmetric(vertical: 0.0, horizontal: 0.0),
+            child: Text('container'),
+          )
+        ],
+      )
     );
   }
 }
