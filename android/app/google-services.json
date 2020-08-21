@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1088506428826",
+    "firebase_url": "https://test-app-5a82f.firebaseio.com",
+    "project_id": "test-app-5a82f",
+    "storage_bucket": "test-app-5a82f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088506428826:android:61bcf1a007e08da3788e23",
+        "android_client_info": {
+          "package_name": "com.gdsz.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088506428826-fh859a4l3tjmtqur8lde6r040o8lbbu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKc_UAAmb2zCVtH4iTPpdagQRiiEJ3qlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088506428826-fh859a4l3tjmtqur8lde6r040o8lbbu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
